@@ -1,0 +1,38 @@
+body{
+    height: 2vh;
+}
+
+#fan-grid {
+    padding-top: 50px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+    align-content: center;
+}
+.fans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-width:100vw;
+    box-sizing:border-box; /* Don't forget this !*/
+    width:75%;
+}
+
+#logo {
+    width: 10%;
+}
+
+.range-input{
+    width: 20rem;
+}
+
+.range-label {
+    width: 200px;
+}
+/* button {
+    width: 500px;
+    height: 300px;
+    
+} */
